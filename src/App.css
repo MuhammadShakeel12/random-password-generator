@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(44, 42, 42);
+  height: 100vh;
+  margin: 0px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.pass-gen{
+  background-color: antiquewhite;
+  
+  width: 350px;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passwordbox input{
+  flex-basis: 80%;
+}
+
+.passwordbox{
+  display: flex;
+}
+
+.passwordbox button{
+  flex-basis: 20%;
+  padding: 7px;
+}
+
+.pass-len{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.pass-len input{
+  width: 50px;
+  padding: 10px 0px;
+}
+
+.btn{
+  width: 100%;
+  padding: 10px 0px;
+  cursor: pointer;
 }
